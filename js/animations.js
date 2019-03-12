@@ -5,7 +5,13 @@ $(document).ready(function(){
     },200000);
 
     setTimeout(function(){
-
-        alert("tu mama es hombre");
+        if (confirm('vainilla?')){
+            window.location.href = "home.html";
+        }else{
+            window.location.href = "https://www.facebook.com/luis.e.estradagil";
+        }
+        
+        
     },200000);
+    
 });
